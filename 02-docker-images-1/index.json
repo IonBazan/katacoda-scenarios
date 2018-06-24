@@ -14,7 +14,9 @@
       },
       {
         "title": "Step 3 - Building own image",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md",
+        "verify": "step3-verify.sh"
       }
     ],
     "finish": {
@@ -23,7 +25,7 @@
     "assets": {
       "client": [
         {
-          "file": "index.html",
+          "file": "Dockerfile",
           "target": "~/"
         }
       ]

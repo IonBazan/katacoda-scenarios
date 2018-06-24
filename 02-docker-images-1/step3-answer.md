@@ -1,3 +1,4 @@
+<pre class="file" data-filename="Dockerfile" data-target="replace">
 # Base image
 FROM python:3-alpine
 
@@ -15,3 +16,4 @@ EXPOSE 5000
 
 # As long as this command is run, the container is running
 CMD ["python", "app.py"]
+</pre>
